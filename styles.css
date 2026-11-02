@@ -1,0 +1,49 @@
+html {
+    background-color: beige;
+}
+
+.site-nav {
+    background-color: rgb(90, 158, 21);
+}
+
+.site-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.site-link {
+    display: block;
+    padding: 10px 20px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.site-link:hover {
+    background-color: rgb(58, 94, 21);
+}
+
+.drop-down {
+    background-color: rgb(248, 185, 216);
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.dropdown-link {
+    display: block;
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.dropdown-link:hover {
+    background-color: rgb(247, 121, 188);
+}
+
+.has-dropdown:hover .drop-down {
+display: block;
+}
+
