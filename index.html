@@ -9,6 +9,7 @@
 
 <body>
     <header>
+        <div class="wrapper">
     <h1>CSS Positioning: Drop Down Menu</h1>
     <p>position: relative and position: absolute</p>
 
@@ -27,10 +28,11 @@
        <li><a href="" class="site-link">Contact</a></li>
     </ul>
         </nav>
+    </div>
     </header>
 
     
-    <main>
+    <main class="wrapper">
 <p>The parent list item needs position: relative so that the child submenu can be positioned with position: absolute relative to it — not relative to the entire page.</p>
 <p>The submenu (a nested ul inside one of the li elements) is hidden by default with display: none. When the user hovers over the parent list item, the submenu is shown with display: block.</p>
 <p>The key concept: position: absolute places an element relative to its nearest ancestor that has position: relative. Without that ancestor, it positions relative to the page — which is almost never what you want.</p>

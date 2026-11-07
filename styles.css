@@ -4,6 +4,7 @@ html {
 
 .site-nav {
     background-color: rgb(90, 158, 21);
+    margin-bottom: 35px;
 }
 
 .site-links {
@@ -46,4 +47,13 @@ html {
 .has-dropdown:hover .drop-down {
 display: block;
 }
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+
+
 
